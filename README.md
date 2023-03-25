@@ -8,6 +8,6 @@ This includes:
 
 - Set up my project’s GitHub repository
 - Create the folder structure
-- Create the recipe rage content
+- Create the recipe page content
 - Commit all the changes using Git commands
 - View the project on the web
