@@ -1,4 +1,6 @@
-body {
+html {
+  width: 100%;
+  height: auto;
   background: url(./img/background-index.jpg) no-repeat center center fixed #000; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -6,7 +8,22 @@ body {
   background-size: cover;
 }
 
-.image-row {
+h1 {
+  font-family: "Norse";
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.recipe-title {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 0;
+}
+
+.index-image-row {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -14,12 +31,47 @@ body {
   padding: 50px;
 }
 
-.image-column:hover img {
-  transform: scale(1.2);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  cursor: pointer;
-  -webkit-transition-property: all; 
-  -webkit-transition-duration: 0.3s; 
-  -webkit-transition-timing-function: ease; 
+.index-image-row img {
+  height: 450px;
+  width: auto;
+  border: solid black;
+  border-radius: 20px;
+  position: relative;
 }
 
+.index-image-column:hover img {
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+  transition-property: all; 
+  transition-duration: 0.3s; 
+  transition-timing-function: ease;
+}
+
+/* Cookies HTML file */
+
+.row {
+  display: flex;
+  margin-right: 300px;
+}
+
+.column img {
+  height: 450px;
+  width: auto;
+  border: solid black;
+  border-radius: 20px;
+  margin-top: 100px;
+}
+
+.column {
+  flex:auto;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+  margin-left: 100px;
+}
+
+
+@font-face {
+  font-family: "Norse";
+  src: url(./resources/Norse.otf);
+}
