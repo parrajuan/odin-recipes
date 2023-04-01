@@ -8,6 +8,10 @@ html {
   background-size: cover;
 }
 
+#return-url {
+  font-size: 20px;
+}
+
 h1 {
   font-family: "Norse";
   text-align: center;
@@ -32,7 +36,7 @@ h1 {
 }
 
 .index-image-row img {
-  height: 450px;
+  height: 400px;
   width: auto;
   border: solid black;
   border-radius: 20px;
@@ -48,14 +52,14 @@ h1 {
   transition-timing-function: ease;
 }
 
-/* Cookies HTML file */
+/* Cookies, Pancakes & Pizza HTML files */
 
-.row {
+.recipes-row {
   display: flex;
   margin-right: 300px;
 }
 
-.column img {
+.recipes-column img {
   height: 450px;
   width: auto;
   border: solid black;
@@ -63,15 +67,30 @@ h1 {
   margin-top: 100px;
 }
 
-.column {
+.recipes-column {
   flex:auto;
   font-family: 'Courier New', Courier, monospace;
-  font-size: 18px;
+  font-size: 20px;
   margin-left: 100px;
 }
 
-
+/* import Norse font */
 @font-face {
   font-family: "Norse";
   src: url(./resources/Norse.otf);
 }
+
+/* Juan Parra logo properties */
+.autor img {
+  height: 65px;
+  width: auto;
+}
+
+.autor {
+  font-family: "Norse";
+  font-weight: bold;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
