@@ -12,6 +12,7 @@ This includes:
 - Commit all the changes using Git commands
 - View the project on the web
 
-** CSS Foundations Course
+** CSS Foundations Course (IN PROGRESS)
 
 - Add styles to HTML with CSS
+- Project: Create a Landing Page
