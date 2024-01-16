@@ -19,8 +19,18 @@ h1 {
   font-size: 50px;
 }
 
+/*
 .recipe-title {
   font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 0;
+}
+*/
+
+.recipe-title {
+  font-family: "Norse";
   text-align: center;
   font-weight: bold;
   font-size: 25px;
