@@ -1,7 +1,7 @@
 html {
   width: 100%;
   height: auto;
-  background: url(./img/background-index.jpg) no-repeat center center fixed #000; 
+  background: url(./img/background-index.jpg) no-repeat center center fixed #000;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -19,9 +19,8 @@ h1 {
   font-size: 50px;
 }
 
-
 .recipe-title {
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   font-weight: bold;
   font-size: 25px;
@@ -58,8 +57,8 @@ h1 {
   transform: scale(1.1);
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   cursor: pointer;
-  transition-property: all; 
-  transition-duration: 0.3s; 
+  transition-property: all;
+  transition-duration: 0.3s;
   transition-timing-function: ease;
 }
 
@@ -79,8 +78,8 @@ h1 {
 }
 
 .recipes-column {
-  flex:auto;
-  font-family: 'Courier New', Courier, monospace;
+  flex: auto;
+  font-family: "Courier New", Courier, monospace;
   font-size: 20px;
   margin-left: 100px;
   font-weight: 1000px;
@@ -105,4 +104,3 @@ h1 {
   text-align: center;
   margin-bottom: 0;
 }
-
