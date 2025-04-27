@@ -1,3 +1,7 @@
+* {
+  outline: 2px solid red;
+}
+
 html {
   width: 100%;
   height: auto;
@@ -8,11 +12,17 @@ html {
   background-size: cover;
 }
 
+body {
+  border: 0;
+  padding: 10px;
+  margin: 10px;
+}
+
 #return-url {
   font-size: 20px;
 }
 
-h1 {
+h1{
   font-family: "Norse";
   text-align: center;
   font-weight: bold;
